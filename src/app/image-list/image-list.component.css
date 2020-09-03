@@ -1,0 +1,222 @@
+#search-container{
+  margin-top:20%;
+}
+.example-full-width {
+  width: 100%;
+}
+.search{
+height: 70px;
+max-height: 70px;
+font-size: 3.5em;
+color: rgb(8, 130, 179);
+}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+.avatar{
+margin-bottom: 7px;
+}
+
+.searchButton{
+background-color: #CA1740;
+color: #fff;
+margin-top:20px;
+}
+
+.image-container{
+width: 300px;
+min-height: 100px;
+max-width: 300px;
+margin: 8px;
+border-radius: 2px;
+box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+overflow: hidden;
+margin-top: 1rem;
+}
+
+.results{
+padding: 8px;
+margin-bottom: 12px;
+}
+
+
+
+
+ 
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .image-container{
+      width: 250px;
+      min-height: 100px;
+      max-width: 300px;
+      margin: 8px;
+      border-radius: 2px;
+      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+      overflow: hidden;
+      margin-top: 1rem;
+      }
+      .search{
+        height: 60px;
+        max-height: 60px;
+        font-size: 1.3em;
+        color: rgb(8, 130, 179);
+        }
+
+}
+
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .image-container{
+      width: 300px;
+      min-height: 100px;
+      max-width: 300px;
+      margin: 8px;
+      border-radius: 2px;
+      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+      overflow: hidden;
+      margin-top: 1rem;
+      }
+      .search{
+        height: 60px;
+        max-height: 60px;
+        font-size: 1.3em;
+        color: rgb(8, 130, 179);
+        }
+    
+}
+
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+    .image-container{
+      width: 400px;
+      min-height: 100px;
+      max-width: 350px;
+      margin: 8px;
+      border-radius: 2px;
+      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+      overflow: hidden;
+      margin-top: 1rem;
+      }
+      .search{
+        height: 60px;
+        max-height: 60px;
+        font-size: 1.3em;
+        color: rgb(8, 130, 179);
+        }
+}
+
+
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+    .image-container{
+      width: 400px;
+      min-height: 100px;
+      max-width: 300px;
+      margin: 8px;
+      border-radius: 2px;
+      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+      overflow: hidden;
+      margin-top: 1rem;
+      }
+      .search{
+        height: 60px;
+        max-height: 60px;
+        font-size: 1.3em;
+        color: rgb(8, 130, 179);
+        }
+
+}
+
+
+
+/* ----------- Galaxy S6 ----------- */
+
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+
+
+    .image-container{
+      width: 400px;
+      min-height: 100px;
+      max-width: 400px;
+      margin: 8px;
+      border-radius: 2px;
+      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+      overflow: hidden;
+      margin-top: 1rem;
+      }
+
+}
+
+
+/* ----------- Galaxy fold ----------- */
+
+
+/* Portrait */
+@media screen 
+  and (device-width: 280px) 
+  and (device-height: 653px) 
+  and (-webkit-device-pixel-ratio: 1) 
+  and (orientation: portrait) {
+
+    .image-container{
+      width: 200px;
+      min-height: 50px;
+      max-width: 200px;
+      margin: 8px;
+      border-radius: 2px;
+      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+      overflow: hidden;
+      margin-top: 1rem;
+      }
+
+      .search{
+        height: 30px;
+        max-height: 40px;
+        font-size: 1em;
+        color: rgb(8, 130, 179);
+        }
+
+
+}
+

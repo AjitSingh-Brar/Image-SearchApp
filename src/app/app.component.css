@@ -1,0 +1,88 @@
+.main-content{
+    padding-top: 50px;
+    background-color: transparent!important;
+  }
+  
+  body{
+    background-color: transparent!important;
+  }
+  
+  h1{
+    color: #333;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 4.2em;
+    padding-bottom: 0.5em;
+  }
+  
+  .header{
+    padding-bottom: 3px;
+  }
+  
+  #title{
+    display: inline-block;
+    font-size: 3.6em;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding-bottom: 0.5em;
+  }
+  
+  .pixabayLogo{
+    width: 120px;
+    height: 65px;
+  }
+  
+  .logo{
+    padding-bottom: 24px;
+    text-align: center;
+    float:right;
+  }
+  
+  #attribution{
+    display: block;
+    padding-bottom: 8px;
+  }
+
+  
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .pixabayLogo{
+      width: 70px;
+      height: 40px;
+    }
+    
+    .logo{
+      padding-bottom: 24px;
+      text-align: center;
+      float:right;
+    }
+}
+
+/* ----------- Galaxy fold ----------- */
+
+
+/* Portrait */
+@media screen 
+  and (device-width: 280px) 
+  and (device-height: 653px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+    .pixabayLogo{
+      width: 50px;
+      height: 20px;
+    }
+    
+    .logo{
+      padding-bottom: 24px;
+      text-align: center;
+      float:right;
+    }
+
+  }
