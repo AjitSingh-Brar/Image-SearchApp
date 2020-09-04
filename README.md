@@ -1,4 +1,7 @@
-# ImageSearch
+# ImageSearch App
+
+An angular image search application that implement Pixabay's public API. Users search for images matching a keyword and the application returns a gallery of those images that link back to Pixabay. All images in the application are provided by Pixabay. The application implements Angular 9's Http class, Angular Material, and ngxmasonry package.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
 
